@@ -127,9 +127,9 @@
         
         
         FKGHUser *user = [FKGHUser fkjson_entityFromJSON:json];
-        //        if (user.userID == 0) NSLog(@"error!");
-        //        if (!user.login) NSLog(@"error!");
-        //        if (!user.htmlURL) NSLog(@"error");
+                if (user.userID == 0) NSLog(@"error!");
+                if (!user.login) NSLog(@"error!");
+                if (!user.htmlURL) NSLog(@"error");
         
         printf("     N/A");
         
